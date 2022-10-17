@@ -1,10 +1,21 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-</style>
 
-{background-color: rgb(31, 30, 30)}
 :root{
     
     font-family: 'Bebas Neue', cursive;
     --text-color: #255,255,255,0.62; 
-    --alternate-text-color: #96132d;
+    --alternate-text-color: #96132d;}
+
+    .w-icon-list {
+        background-image: url(../img/background_learnmore.jpg)
+        background-size: cover
+        display: flex;
+        alight-items: center;
+        justify-content: center;
+        flex-direction: colomn;
+
+    }
+
+
+        
+ 
