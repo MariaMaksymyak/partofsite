@@ -27,8 +27,10 @@
 .brands_sport_title{
     color: rgba(255,255,255,0.62);
     position: relative;
-    
+    font-size: 24px;
+    display: grid;
 }
+    
 .brands_sport_subtitle{
     color: #fff;
     font-size: 68px;
@@ -41,11 +43,17 @@
     font-size: 20px;
 }
 
-.brands__sport_text{
+.icon_brands {
+    border-radius: 10px;
+    border-radius: 50%;
+    background-color: #EEDDFF;
+    border: 6px solid #7922CC;
+    border-radius: 25px;}
+
+.brands_sport_text{
     font-family: PT Sans, sans-serif;
     color: #fff;
     font-size: 20px;
-    
 }
 
 
