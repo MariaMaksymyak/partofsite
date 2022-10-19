@@ -1,20 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-:root{
-    
+:root{ 
     font-family: 'Bebas Neue', cursive;
-    --text-color: #255,255,255,0.62; 
-    --alternate-text-color: #96132d;}
+    text-color: rgb(234, 241, 241),255,255,0.62; 
+    alternate-text-color: #96132d;}
 
-    .w-icon-list {
-        background-image: url(../img/background_learnmore.jpg)
-        background-size: cover
-        display: flex;
-        alight-items: center;
-        justify-content: center;
-        flex-direction: colomn;
 
-    }
+.brands{
+    background-image: url(../img/background_brands.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.brands__sport-linkbutton{
+    background-color: transparent;
+   
+    border: 1px solid #fff;
+    border-style: solid;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+.brands__sport-linkbutton:hover {
+    background-color: blue;
+}
+
+    
 
 
         
