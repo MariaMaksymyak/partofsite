@@ -19,10 +19,14 @@
 
 .brands__sport-title{
     color: rgba(255,255,255,0.62);
+    position: relative;
+    
 }
 .brands__sport-subtitle{
     color: #fff;
     font-size: 68px;
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
 .w-icon-list {
     font-family: PT Sans, sans-serif;
